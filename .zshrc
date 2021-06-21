@@ -157,3 +157,12 @@ bindkey '^[OB' history-substring-search-down
 
 export FIXUID=$(id -u)
 export FIXGID=$(id -g)
+
+export PATH="/usr/local/opt/make/libexec/gnubin:$PATH"
+export PATH="$HOME/Library/Python/3.9/bin:$PATH"
+export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+    [ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && . "$(brew --prefix)/opt/nvm/nvm.sh" # This loads nvm
+    [ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && . "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
+
